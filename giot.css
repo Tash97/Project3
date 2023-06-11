@@ -1,0 +1,120 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';   
+  }
+  #flexbox_img{
+    background-color: black; 
+  }
+  .flexbox {
+   display: flex;
+   background-color: black;
+   width: 100%;
+   gap: 2.5%;
+   padding-top: 2.5%;
+   align-items: center;
+   color: white;
+   margin: 0%;
+  }
+  .flexbox > div{
+    font-size: 20px;
+  }
+  #title{
+    font-size: 40px;
+    margin-right: auto;
+    margin-left: 5%;
+  }
+  #navbar_right{
+    margin-right: 5%;
+  }
+  #image_container{
+   position: relative; 
+  }
+  #main_image {
+    width: 100%;
+  }
+  .center_text{
+    position: absolute;
+    color: white;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  #schedule{
+    margin-top: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #month{
+    font-size: 30px;
+    background-color: #eeeeee;
+    text-align: center;
+    border: .5px solid black;
+    margin-bottom: 2.5%;
+  }
+  .listings{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+  }
+  .listings > img{
+    object-fit: cover;
+    background-color: green;
+    object-position: 0% 20%;
+    width: 30%;
+    max-height: 250px;
+  }
+    
+  .listing_text > h{
+    margin: 0%;
+    font-size: 40px;
+   
+  }
+  .listing_text > p{
+    font-size: 25px;
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 7.5%;
+  }
+  .listing_text{
+  
+  }
+  .listing_button_container{
+    width: 15%;
+    display: flex;
+    align-items: center;
+  }
+  .listing_button_container > button{
+    height: 20%;
+    width: 100%;
+    font-size: 200%;
+    background-color: #eab625;
+    color: white;
+    border: 1px solid grey;
+  }  
+  footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    bottom: 0;
+    width: 100%;
+  }
+  footer > div{
+    color: white;
+  }
+  footer > img{
+    width: 20%;
+  }
+  footer > div > h{
+    font-size: 200%;
+  }
+  
+  
